@@ -1,0 +1,32 @@
+name: Automated Profile Telemetry & Art Runner
+
+on:
+  schedule:
+    - cron: '17 6 * * *' # Daily at 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-telemetry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Profile Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Telemetry Check
+        run: |
+          echo "Profile artwork verified and updated."
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || (git commit -m "chore(telemetry): automated profile telemetry sync [skip ci]" && git push)

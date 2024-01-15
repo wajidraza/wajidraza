@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" width="420" height="560">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA7C11" />
+    </linearGradient>
+    <style>
+      .bg { fill: #0a0a0c; stroke: #2a2415; stroke-width: 1.5; }
+      .title { fill: #D4AF37; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; }
+      .ascii-text { fill: #D4AF37; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 7.5px; line-height: 9px; white-space: pre; font-weight: 500; text-shadow: 0 0 10px rgba(212,175,55,0.28); }
+      @keyframes fin { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+      .line { animation: fin 0.4s ease-out forwards; }
+    </style>
+  </defs>
+  
+  <!-- Terminal Card -->
+  <rect class="bg" x="4" y="4" width="412" height="552" rx="12" />
+  
+  <!-- Header Bar -->
+  <rect x="4" y="4" width="412" height="32" rx="12" fill="#12100b" />
+  <rect x="4" y="24" width="412" height="12" fill="#12100b" />
+  <line x1="4" y1="36" x2="416" y2="36" stroke="#2a2415" stroke-width="1" />
+  
+  <!-- Window Controls -->
+  <circle cx="22" cy="20" r="5" fill="#ff5f56" />
+  <circle cx="38" cy="20" r="5" fill="#ffbd2e" />
+  <circle cx="54" cy="20" r="5" fill="#27c93f" />
+  
+  <!-- Title -->
+  <text x="210.0" y="24" text-anchor="middle" class="title">~/wajidraza/neural-portrait</text>
+  
+  <!-- ASCII Lines -->
+  <g transform="translate(16, 54)">
+    <text x="0" y="0.0" class="ascii-text line" style="animation-delay: 0.00s;">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="10.2" class="ascii-text line" style="animation-delay: 0.02s;">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="20.4" class="ascii-text line" style="animation-delay: 0.04s;">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="30.6" class="ascii-text line" style="animation-delay: 0.06s;">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="40.8" class="ascii-text line" style="animation-delay: 0.08s;">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="51.0" class="ascii-text line" style="animation-delay: 0.10s;">@@@@@@@@@@@@@@@@@@@@@@@%#*;:::''':+**c#@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="61.2" class="ascii-text line" style="animation-delay: 0.12s;">@@@@@@@@@@@@@@@@@@@@#+'                :s@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="71.4" class="ascii-text line" style="animation-delay: 0.14s;">@@@@@@@@@@@@@@@@@@@*             ..      #@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="81.6" class="ascii-text line" style="animation-delay: 0.16s;">@@@@@@@@@@@@@@@@@@;   .:;+++**ccsssc+:   ;@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="91.8" class="ascii-text line" style="animation-delay: 0.18s;">@@@@@@@@@@@@@@@@@@   ;cs#%%%%%%%###ssc+   :@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="102.0" class="ascii-text line" style="animation-delay: 0.20s;">@@@@@@@@@@@@@@@@@#  .*ss##%%#%###%##ssc:  '@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="112.2" class="ascii-text line" style="animation-delay: 0.22s;">@@@@@@@@@@@@@@@@@@  +cc*ccs#%%%#scc*+*cc: ;@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="122.4" class="ascii-text line" style="animation-delay: 0.24s;">@@@@@@@@@@@@@@@@@@:'s+''::.'*s#c:.'::::*c *@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="132.6" class="ascii-text line" style="animation-delay: 0.26s;">@@@@@@@@@@@@@@@@@%+;c+;::'::;s%*;;'::;*cs;**@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="142.8" class="ascii-text line" style="animation-delay: 0.28s;">@@@@@@@@@@@@@@@@@c**sssccccss#%scscss###s*+c#@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="153.0" class="ascii-text line" style="animation-delay: 0.30s;">@@@@@@@@@@@@@@@@@s**cs#%%%%#s#%#s#%%%%#sc*+c#@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="163.2" class="ascii-text line" style="animation-delay: 0.32s;">@@@@@@@@@@@@@@@@@#*+css####s++c;+s#%##scc;+s@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="173.4" class="ascii-text line" style="animation-delay: 0.34s;">@@@@@@@@@@@@@@@@@@#::*css#s*' . .+*cssc+:'s@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="183.6" class="ascii-text line" style="animation-delay: 0.36s;">@@@@@@@@@@@@@@@@@@@%'':+c'  ':::'.  ;+:'.;@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="193.8" class="ascii-text line" style="animation-delay: 0.38s;">@@@@@@@@@@@@@@@@@@@@c.'.: ';;+++;::......%@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="204.0" class="ascii-text line" style="animation-delay: 0.40s;">@@@@@@@@@@@@@@@@@@@@@*     .  ..        +@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="214.2" class="ascii-text line" style="animation-delay: 0.42s;">@@@@@@@@@@@@@@@@@@@@#+;     ..'''      :#;#@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="224.4" class="ascii-text line" style="animation-delay: 0.44s;">@@@@@@@@@@@@@@@@@#s+.;@c'           .';#@; ;cs#@@@@@@@@@@@@@@@@@@@</text>
+    <text x="0" y="234.6" class="ascii-text line" style="animation-delay: 0.46s;">@@@@@@@@@@@%#c+:''...:@@%c:'......':;c%@@'.....':+*s#%@@@@@@@@@@@@</text>
+    <text x="0" y="244.8" class="ascii-text line" style="animation-delay: 0.48s;">@@@@%#sc*+:'....''''''%@@@@s*+;;;+*s%@@@s.'.....'..''::;+*c#%@@@@@</text>
+    <text x="0" y="255.0" class="ascii-text line" style="animation-delay: 0.50s;">#*+:''....''''''''''''#@@@@@%c*c**%@@@@@*.''..'..'''''''''''::;+#@</text>
+    <text x="0" y="265.2" class="ascii-text line" style="animation-delay: 0.52s;">'..'''''''''''..''''''#@@@%;  ..   ;%@@@;'''''..'''''''''::''''.:@</text>
+    <text x="0" y="275.4" class="ascii-text line" style="animation-delay: 0.54s;">''''''''''''''''''''''#@@@@%s' .. +#%@@#''''''''''''''''''''''.'.#</text>
+    <text x="0" y="285.6" class="ascii-text line" style="animation-delay: 0.56s;">'''''''''''''''''''''.c@@@@@@@;  c@@@@@s''''''''''''''''''''''.. :</text>
+    <text x="0" y="295.8" class="ascii-text line" style="animation-delay: 0.58s;">.'''''''''''''''''''''+@@@@@@@:. ;@@@@@*'''''''''''''''''''''...  </text>
+    <text x="0" y="306.0" class="ascii-text line" style="animation-delay: 0.60s;">'.'''''''''''''''''''':@@@@@@+ '. s@@@@;''''':''''''''''''''. .  .</text>
+    <text x="0" y="316.2" class="ascii-text line" style="animation-delay: 0.62s;">'.'''''''''''''''''''''s@@@@# .''.:@@@#'''''''''''''''''''''. .   </text>
+    <text x="0" y="326.4" class="ascii-text line" style="animation-delay: 0.64s;">'..'''''''''''''''''''':@@@@; '''.'%@@*'''':::'''''''''..... ..   </text>
+    <text x="0" y="336.6" class="ascii-text line" style="animation-delay: 0.66s;">.. ''''''''''''''''''''.+@@@'.''''.#@%:''''':''''''''......  .    </text>
+    <text x="0" y="346.8" class="ascii-text line" style="animation-delay: 0.68s;">.. .'''..'''''''.''''''' #@#''''''.#@:'''''''''''''.......        </text>
+    <text x="0" y="357.0" class="ascii-text line" style="animation-delay: 0.70s;">.  .......'''''''.''''''.'@#.'''''.%*.:''''''''''.....        .   </text>
+    <text x="0" y="367.2" class="ascii-text line" style="animation-delay: 0.72s;">..  ........''''''.'''''' ;c.'''...;.'''''''.'......          .   </text>
+    <text x="0" y="377.4" class="ascii-text line" style="animation-delay: 0.74s;">.    ........'''''..'''''. ........ .''''''.''.....               </text>
+    <text x="0" y="387.6" class="ascii-text line" style="animation-delay: 0.76s;">.     ........'''''..''''' ...... . '''''.......              .   </text>
+    <text x="0" y="397.8" class="ascii-text line" style="animation-delay: 0.78s;">.      .........''''..''.'. ...... .'.''.......                   </text>
+    <text x="0" y="408.0" class="ascii-text line" style="animation-delay: 0.80s;">         ........'''...'..'  ....  ''.'. ......                   </text>
+  </g>
+</svg>
