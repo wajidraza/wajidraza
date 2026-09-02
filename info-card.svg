@@ -27,7 +27,7 @@
   <circle cx="54" cy="20" r="5" fill="#27c93f" />
   
   <!-- Title -->
-  <text x="240.0" y="24" text-anchor="middle" class="title">wajid@archlinux: ~ (The Cipher Stack)</text>
+  <text x="240.0" y="24" text-anchor="middle" class="title">wajid@archlinux: ~ (System Overview)</text>
   
   <!-- Content -->
   <g transform="translate(24, 66)">

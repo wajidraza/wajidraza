@@ -17,12 +17,12 @@
 
 ---
 
-### <code>The Cipher Stack</code>
+### <code>Developer Terminal &amp; System Specs</code>
 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center" valign="middle">
-      <img src="./hxni-ascii.svg" width="390" alt="Neural Gold ASCII Portrait" />
+      <img src="./wajid-ascii.svg" width="390" alt="Wajid Gold ASCII Portrait" />
     </td>
     <td align="center" valign="middle">
       <img src="./info-card.svg" width="470" alt="Neofetch Terminal Info Card" />
